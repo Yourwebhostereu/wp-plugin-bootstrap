@@ -1,0 +1,21 @@
+{
+  "name": "wp-plugin-bootstrap",
+  "version": "1.0.0",
+  "description": "Your easy-to-use WordPress Plugin Boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "WordPress",
+    "Plugin",
+    "bootstrap"
+  ],
+  "author": "Daniel Koop <mail@danielkoop.me>",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

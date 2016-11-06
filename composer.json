@@ -1,0 +1,19 @@
+{
+    "name": "mrkoopie/wp-plugin-bootstrap",
+    "description": "The simple plugin bootstrap",
+    "type": "wordpress-plugin",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Daniel Koop",
+            "email": "mail@danielkoop.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mrkoopie\\Wp_Plugin_Boilerplate\\": "app"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
