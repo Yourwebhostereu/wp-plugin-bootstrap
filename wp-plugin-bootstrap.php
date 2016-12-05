@@ -1,13 +1,15 @@
 <?php
+
 namespace Mrkoopie\Wp_Plugin_Boilerplate;
+
 /**
- * Bootstrap file
+ * Bootstrap file.
  *
- * Brings 
+ * Brings
  *
  * @link              http://www.danielkoop.me/
  * @since             1.0.0
- * @package           Wp_Plugin_Boilerplate
+ *
  * @author 		      Daniel Koop <mail@danielkoop.me>
  *
  * @wordpress-plugin
@@ -24,7 +26,7 @@ namespace Mrkoopie\Wp_Plugin_Boilerplate;
  */
 
 /* Include composer */
-include('vendor/autoload.php');
+include 'vendor/autoload.php';
 
 /* Launch the plugin! */
 (new Launcher());
